@@ -18,9 +18,10 @@ public class Demo3 {
 		// driver.manage().deleteAllCookies();
 
 		driver.get("https://www.jodayn.com");
-
+		driver.getTitle();
+		
 		driver.manage().window().maximize();
-
+		
 		driver.quit();
 
 	}
